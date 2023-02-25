@@ -4,7 +4,7 @@ function getDayOfTheWeek(utc) {
     const day = date.getDay();
     switch (day) {
         case 0:
-            return "Duminică;
+            return "Duminică";
         case 1:
             return "Luni";
         case 2:

@@ -25,3 +25,17 @@
 .bg-dark {
     background-color: var(--primary) !important;
 }
+h1, h2 {
+    font-weight: bold;
+}
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+main {
+    flex: 1;
+}
+header {
+    height: 30vh;
+}
