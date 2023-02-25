@@ -24,9 +24,9 @@
     <section class="choose-location py-5">
         <div class="container">
             <h2 class="text-primary text-center">Choose your location</h2>
-            <p class="text-center">  Te pregatesti sa iesi in oras, dar nu stii sigur cu ce sa te
-                imbraci? Iti venim in ajutor! Alege de mai jos orasul tau apoi
-                uite-te prin aplicatie pentru a vedea vremea din orasul tau.</p>
+            <p class="text-center">  Are you getting ready to go out on the town, but not sure what to wear?
+                We come to your help! Choose your city below then look through
+                the application to see the weather in your city.</p>
             <p class="text-center">The selected city is <strong class="current-city">Timisoara</strong></p>
             <div class="dropdown d-flex justify-content-center ">
                 <button class="btn btn-secondary dropdown-toggle"
@@ -67,7 +67,15 @@
         crossorigin="anonymous"
 ></script>
 
-
+<button
+        type="button"
+        data-bs-placement="top"
+        data-bs-toggle="popover"
+        data-bs-trigger="hover focus"
+        data-bs-content="Scroll To Top"
+        class="scroll-top-top btn btn-dark rounded-circle"
+><span class="material-symbols-outlined"> arrow_upward </span>
+</button>
 
 <script src= "services/utils.js"></script>
 <script src = "services/weatherService.js"></script>

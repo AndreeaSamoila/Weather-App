@@ -4,19 +4,19 @@ function getDayOfTheWeek(utc) {
     const day = date.getDay();
     switch (day) {
         case 0:
-            return "Duminică";
+            return "Sunday";
         case 1:
-            return "Luni";
+            return "Monday";
         case 2:
-            return "Marți";
+            return "Tuesday";
         case 3:
-            return "Miercuri";
+            return "Wednesday";
         case 4:
-            return "Joi";
+            return "Thursday";
         case 5:
-            return "Vineri";
+            return "Friday";
         case 6:
-            return "Sâmbătă"
+            return "Saturday"
     }
 }
 

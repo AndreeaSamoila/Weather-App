@@ -10,7 +10,7 @@ async function displayCurrentWeather (city) {
     const hour  = getHour(dt);
 
     const weatherDescription = weather[0].description;
-    const weatherIcon = weather[0].icon;
+    const weatherIcon = getWeatherIcon(weather[0].icon);
 
     const windSpeed = Math.round(windToKmPerHour(wind.speed));
 
@@ -25,9 +25,9 @@ async function displayCurrentWeather (city) {
          </div>
     </div>
     <div class="px-3">
-    <p class="fs-5">Se simte ca <strong>${realFeel}°C</strong></p>
+    <p class="fs-5">Feels like <strong>${realFeel}°C</strong></p>
      <p class="fs-5">${weatherDescription}</p>
-     <p class="fs-5">Viteza vantului: <strong>${windSpeed} km/h</strong></p>
+     <p class="fs-5">Wind speed: <strong>${windSpeed} km/h</strong></p>
     </div>
     `
 }
