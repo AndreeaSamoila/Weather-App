@@ -1,0 +1,27 @@
+:root {
+    --primary: #26c485;
+    --secondary: #fbb44c;
+    --bg-primary: #32908f;
+    --bg-secondary: #dfedf5;
+    --btn-color: #2bb686;
+}
+
+.btn-secondary {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--bg-primary) !important;
+}
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
+}
+
+.bg-dark {
+    background-color: var(--primary) !important;
+}
