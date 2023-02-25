@@ -1,4 +1,5 @@
 const API_KEY  = "6cc2cbbe076a9b595f4d3d63afe7877e";
+//the api key should not be visible;
 
 const URL = "https://api.openweathermap.org/data/2.5";
 
