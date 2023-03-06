@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb9ca6b9-ddb6-492c-8124-5836da268e74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sections/WeatherForecast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/ChooseLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sections/ChooseLocation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/weatherService.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/weatherService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
       <workItem from="1677252071394" duration="21414000" />
       <workItem from="1677399991470" duration="26000" />
       <workItem from="1677602291388" duration="5319000" />
-      <workItem from="1678136354966" duration="3204000" />
+      <workItem from="1678136354966" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="added readme file">
       <created>1677319859511</created>
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677342862843</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added weather forecast">
+      <created>1678139628252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678139628252</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +113,8 @@
     <MESSAGE value="added utils functions" />
     <MESSAGE value="display weather" />
     <MESSAGE value="added scroll to top functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scroll to top functionality" />
+    <MESSAGE value="added weather forecast" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather forecast" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
