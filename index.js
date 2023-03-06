@@ -12,3 +12,4 @@ if(!currentCity) {
 
 updateCurrentCity(currentCity);
 displayCurrentWeather(currentCity);
+displayWeatherForecast(currentCity);

@@ -6,5 +6,9 @@ const URL = "https://api.openweathermap.org/data/2.5";
 const DEFAULT_QUERY_PARAMETERS  = `lang=en&units=metric&appid=${API_KEY}`;
 
 function getCurrentWeather(city) {
-    return fetchAndParse(`${URL}/weather?q=${city}&${DEFAULT_QUERY_PARAMETERS}`)
+    return fetchAndParse(`${URL}/weather?q=${city}&${DEFAULT_QUERY_PARAMETERS}`);
+}
+
+function getForecast(city) {
+    return fetchAndParse(`${URL}/forecast?q=${city}&${DEFAULT_QUERY_PARAMETERS}`);
 }

@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb9ca6b9-ddb6-492c-8124-5836da268e74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sections/WeatherForecast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/CurrentWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/sections/CurrentWeather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/ScrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/sections/ScrollToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/ChooseLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sections/ChooseLocation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/weatherService.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/weatherService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/date.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677252070252</updated>
-      <workItem from="1677252071394" duration="20530000" />
+      <workItem from="1677252071394" duration="21414000" />
+      <workItem from="1677399991470" duration="26000" />
+      <workItem from="1677602291388" duration="5319000" />
+      <workItem from="1678136354966" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="added readme file">
       <created>1677319859511</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677337900013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added scroll to top functionality">
+      <created>1677342862843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677342862843</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +111,8 @@
     <MESSAGE value="integration with api" />
     <MESSAGE value="added utils functions" />
     <MESSAGE value="display weather" />
-    <option name="LAST_COMMIT_MESSAGE" value="display weather" />
+    <MESSAGE value="added scroll to top functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scroll to top functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

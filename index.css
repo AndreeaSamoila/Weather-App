@@ -30,13 +30,13 @@
 .bg-dark {
     background-color: var(--primary) !important;
 }
-h1, h2 {
+h1, h2, h3 {
     font-weight: bold;
 }
 body {
     display: flex;
     flex-direction: column;
-
+    min-height: 100vh;
 }
 main {
     flex: 1;
@@ -58,4 +58,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.weather-forecast-box p {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .weather-forecast-box .real-feel {
+        display: none;
+    }
 }
